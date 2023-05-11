@@ -8,17 +8,12 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
 }
-/* header{
+header{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 100px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-} */
+}  
 .logo{
     font-size: 2em;
     pointer-events: none;
@@ -27,4 +22,28 @@ body{
 .btn:hover{
     background: #359381;
     color: #fff;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #f9f9f9;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
 }
